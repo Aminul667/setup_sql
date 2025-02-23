@@ -13,6 +13,7 @@
 
 10. Install:-->
 
+```tex
     @prisma/client
     ts-node-dev -D
     @prisma/client
@@ -28,6 +29,7 @@
     multer
     nodemailer
     zod
+```
 
 11. add the script
 
