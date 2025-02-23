@@ -30,13 +30,17 @@
     zod
 
 11. add the script
+
+```js
     "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
     },
+```
 
 12. add "src/server.ts" in the root directory
 13. copy and past the code to server.ts
 
+```js
 import express from "express";
 
 const app = express();
@@ -44,7 +48,8 @@ const app = express();
 const port = 3000;
 
 app.listen(port, () => {
-console.log("App is listening on port", port);
+  console.log("App is listening on port", port);
 });
+```
 
 14. run yarn dev
